@@ -25,7 +25,7 @@ Near black surfaces, hairline borders in place of visible chrome, muted grays fo
 ## Design choices
 
 - The editor sits on near black (#09090c); sidebars are one shade away, separated by hairlines rather than panels.
-- Your fonts are respected. Umbra sets weights and rhythm, never typefaces.
+- Type is set to elegant faces your system already has (Avenir Next, Inter, Segoe UI, with JetBrains Mono or SF Mono for code); nothing is ever downloaded, and any font you pick in Settings still wins.
 - Inactive tabs, the ribbon, the status bar, and frontmatter properties stay dim until you interact with them.
 - Completed tasks fade and strike through; list markers and indentation guides are barely there.
 - Shadows are gone except under popovers, where depth is information.

@@ -24,6 +24,16 @@ settings:
 .theme-dark {
   color-scheme: dark;
 
+  /* ---- Type ------------------------------------------------------------ */
+  /* System-installed faces only, never downloaded. Your own font choice in
+     Settings, Appearance always wins over these. */
+  --font-text-theme: "Avenir Next", "Inter", "Segoe UI Variable", "Segoe UI",
+    system-ui, sans-serif;
+  --font-interface-theme: "Avenir Next", "Inter", "Segoe UI Variable",
+    "Segoe UI", system-ui, sans-serif;
+  --font-monospace-theme: "JetBrains Mono", "SF Mono", ui-monospace,
+    "Cascadia Code", Menlo, Consolas, monospace;
+
   /* ---- The one accent, and everything derived from it ------------------ */
   --umbra-accent: #7d76e8;
   --umbra-accent-strong: color-mix(in srgb, var(--umbra-accent), #ffffff 12%);
