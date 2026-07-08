@@ -1,9 +1,34 @@
 /* Umbra: a very dark, minimalist theme for Obsidian.
    The darkest part of a shadow. Near black surfaces, hairline borders,
-   quiet grays, and a single restrained violet accent. Dark mode only. */
+   quiet grays, and a single restrained accent. Dark mode only.
+
+   The accent is one variable: --umbra-accent. Everything accent related
+   derives from it, so changing one color restyles the whole theme.
+   Install the Style Settings plugin to get a color picker for it. */
+
+/* @settings
+
+name: Umbra
+id: umbra
+settings:
+    -
+        id: umbra-accent
+        title: Accent color
+        description: The one color Umbra allows itself. Links, tags, the caret, checkboxes, and the active tab all derive from it.
+        type: variable-color
+        format: hex
+        default: '#7d76e8'
+
+*/
 
 .theme-dark {
   color-scheme: dark;
+
+  /* ---- The one accent, and everything derived from it ------------------ */
+  --umbra-accent: #7d76e8;
+  --umbra-accent-strong: color-mix(in srgb, var(--umbra-accent), #ffffff 12%);
+  --umbra-accent-text: color-mix(in srgb, var(--umbra-accent), #ffffff 24%);
+  --umbra-accent-text-strong: color-mix(in srgb, var(--umbra-accent), #ffffff 38%);
 
   /* ---- Surfaces ------------------------------------------------------- */
   --background-primary: #09090c;
@@ -16,12 +41,12 @@
   /* Hairlines instead of visible chrome */
   --background-modifier-border: rgba(255, 255, 255, 0.06);
   --background-modifier-border-hover: rgba(255, 255, 255, 0.1);
-  --background-modifier-border-focus: rgba(148, 142, 240, 0.35);
+  --background-modifier-border-focus: color-mix(in srgb, var(--umbra-accent) 35%, transparent);
   --divider-color: rgba(255, 255, 255, 0.05);
   --tab-outline-color: transparent;
 
   --background-modifier-hover: rgba(255, 255, 255, 0.04);
-  --background-modifier-active-hover: rgba(125, 118, 232, 0.1);
+  --background-modifier-active-hover: color-mix(in srgb, var(--umbra-accent) 10%, transparent);
   --background-modifier-form-field: #0e0e13;
   --background-modifier-message: #16161c;
 
@@ -35,22 +60,22 @@
   --bold-color: #e4e4ec;
   --italic-color: #d6d6de;
 
-  /* ---- The one accent -------------------------------------------------- */
-  --interactive-accent: #7d76e8;
-  --interactive-accent-hover: #948ef0;
-  --text-accent: #a29bf2;
-  --text-accent-hover: #bab4f7;
-  --link-color: #a29bf2;
-  --link-color-hover: #bab4f7;
-  --link-external-color: #a29bf2;
-  --link-external-color-hover: #bab4f7;
+  /* ---- Accent applications ---------------------------------------------- */
+  --interactive-accent: var(--umbra-accent);
+  --interactive-accent-hover: var(--umbra-accent-strong);
+  --text-accent: var(--umbra-accent-text);
+  --text-accent-hover: var(--umbra-accent-text-strong);
+  --link-color: var(--umbra-accent-text);
+  --link-color-hover: var(--umbra-accent-text-strong);
+  --link-external-color: var(--umbra-accent-text);
+  --link-external-color-hover: var(--umbra-accent-text-strong);
   --link-decoration: none;
   --link-external-decoration: none;
   --link-decoration-hover: underline;
 
-  --text-selection: rgba(125, 118, 232, 0.22);
-  --text-highlight-bg: rgba(125, 118, 232, 0.16);
-  --caret-color: #948ef0;
+  --text-selection: color-mix(in srgb, var(--umbra-accent) 22%, transparent);
+  --text-highlight-bg: color-mix(in srgb, var(--umbra-accent) 16%, transparent);
+  --caret-color: var(--umbra-accent-strong);
 
   /* ---- Headings: same ink, different weight only ----------------------- */
   --heading-formatting: var(--text-faint);
@@ -83,13 +108,13 @@
   --code-background: #0f0f15;
   --code-normal: #b9b9c4;
   --code-comment: #5f5f6a;
-  --code-function: #a29bf2;
-  --code-keyword: #8d86ec;
+  --code-function: var(--umbra-accent-text);
+  --code-keyword: color-mix(in srgb, var(--umbra-accent), #ffffff 8%);
   --code-string: #9aa88a;
   --code-value: #c2a889;
   --code-property: #b9b9c4;
   --code-punctuation: #82828c;
-  --code-tag: #8d86ec;
+  --code-tag: color-mix(in srgb, var(--umbra-accent), #ffffff 8%);
   --code-radius: 6px;
 
   /* ---- Blockquotes, rules, tables --------------------------------------- */
@@ -106,8 +131,8 @@
 
   /* ---- Lists and checkboxes ---------------------------------------------- */
   --checkbox-radius: 4px;
-  --checkbox-color: #7d76e8;
-  --checkbox-color-hover: #948ef0;
+  --checkbox-color: var(--umbra-accent);
+  --checkbox-color-hover: var(--umbra-accent-strong);
   --checkbox-border-color: rgba(255, 255, 255, 0.22);
   --checkbox-border-color-hover: rgba(255, 255, 255, 0.35);
   --checklist-done-color: #55555e;
@@ -115,10 +140,10 @@
   --list-marker-color: #55555e;
 
   /* ---- Tags -------------------------------------------------------------- */
-  --tag-background: rgba(125, 118, 232, 0.09);
-  --tag-background-hover: rgba(125, 118, 232, 0.16);
-  --tag-color: #a29bf2;
-  --tag-color-hover: #bab4f7;
+  --tag-background: color-mix(in srgb, var(--umbra-accent) 9%, transparent);
+  --tag-background-hover: color-mix(in srgb, var(--umbra-accent) 16%, transparent);
+  --tag-color: var(--umbra-accent-text);
+  --tag-color-hover: var(--umbra-accent-text-strong);
   --tag-decoration: none;
   --tag-decoration-hover: none;
   --tag-radius: 4px;
@@ -133,7 +158,7 @@
   --tab-text-color-focused-active-current: #e4e4ec;
   --icon-color: #6b6b75;
   --icon-color-hover: #c7c7cf;
-  --icon-color-active: #a29bf2;
+  --icon-color-active: var(--umbra-accent-text);
   --icon-color-focused: #c7c7cf;
   --nav-item-color: #82828c;
   --nav-item-color-hover: #c7c7cf;
@@ -158,9 +183,9 @@
   --graph-line: rgba(255, 255, 255, 0.08);
   --graph-node: #82828c;
   --graph-node-unresolved: #454550;
-  --graph-node-tag: #7d76e8;
+  --graph-node-tag: var(--umbra-accent);
   --graph-node-attachment: #9aa88a;
-  --graph-node-focused: #a29bf2;
+  --graph-node-focused: var(--umbra-accent-text);
   --graph-text: #82828c;
 
   /* ---- Misc ------------------------------------------------------------------- */
@@ -323,6 +348,6 @@
 
 /* Search matches use the accent softly */
 .theme-dark .search-result-file-matched-text {
-  background-color: rgba(125, 118, 232, 0.18);
+  background-color: color-mix(in srgb, var(--umbra-accent) 18%, transparent);
   color: inherit;
 }
