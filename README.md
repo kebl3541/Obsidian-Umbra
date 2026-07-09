@@ -1,7 +1,7 @@
 # Umbra
 
 [![Downloads](https://img.shields.io/github/downloads/kebl3541/Obsidian-Umbra/total?style=flat&logo=github&label=Downloads&color=success&cacheSeconds=3800)](https://github.com/kebl3541/Obsidian-Umbra/releases)
-[![GitHub stars](https://img.shields.io/github/stars/kebl3541/Obsidian-Umbra?style=flat&logo=github&label=Stars&cacheSeconds=7400)](https://github.com/kebl3541/Obsidian-Umbra/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/kebl3541/Obsidian-Umbra?style=flat&logo=github&label=Stars&cacheSeconds=300)](https://github.com/kebl3541/Obsidian-Umbra/stargazers)
 [![Latest release](https://img.shields.io/github/v/release/kebl3541/Obsidian-Umbra?style=flat&label=Release&cacheSeconds=3800)](https://github.com/kebl3541/Obsidian-Umbra/releases/latest)
 
 An Obsidian theme named for the darkest part of a shadow: **very dark, very quiet, one restrained accent**.
@@ -17,7 +17,7 @@ continued development, please use the buttons below:</p>
 
 <p align="center"><strong><a href="https://buymeacoffee.com/philosophizer">☕ Buy me a coffee</a></strong>&nbsp;&nbsp;·&nbsp;&nbsp;<strong><a href="https://www.paypal.com/donate/?business=berlin.philosophy%40gmail.com&no_recurring=0&currency_code=EUR">💙 Donate via PayPal</a></strong></p>
 
-<p align="center">If you like this theme or find it useful, please consider giving it a <a href="https://github.com/kebl3541/Obsidian-Umbra">star</a> <a href="https://github.com/kebl3541/Obsidian-Umbra"><img src="https://img.shields.io/github/stars/kebl3541/Obsidian-Umbra?style=social&cacheSeconds=3900" alt="GitHub Repo stars"></a> on GitHub!</p>
+<p align="center">If you like this theme or find it useful, please consider giving it a <a href="https://github.com/kebl3541/Obsidian-Umbra">star</a> <a href="https://github.com/kebl3541/Obsidian-Umbra"><img src="https://img.shields.io/github/stars/kebl3541/Obsidian-Umbra?style=social&cacheSeconds=300" alt="GitHub Repo stars"></a> on GitHub!</p>
 
 ![Umbra](screenshot.png)
 
