@@ -7,7 +7,7 @@
 An Obsidian theme named for the darkest part of a shadow: **very dark, very quiet, one restrained accent**.
 
 <p>If this theme adds value for you and you would like to help support
-continued development, please use the buttons below:</p>
+continued development, please consider one of the buttons below:</p>
 
 <p align="center">
 <a href="https://www.paypal.com/donate/?business=berlin.philosophy%40gmail.com&no_recurring=0&currency_code=EUR"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-200px.png" alt="PayPal" height="42"></a>
@@ -17,7 +17,7 @@ continued development, please use the buttons below:</p>
 
 <p align="center"><strong><a href="https://buymeacoffee.com/philosophizer">☕ Buy me a coffee</a></strong>&nbsp;&nbsp;·&nbsp;&nbsp;<strong><a href="https://www.paypal.com/donate/?business=berlin.philosophy%40gmail.com&no_recurring=0&currency_code=EUR">💙 Donate via PayPal</a></strong></p>
 
-<p align="center">If you like this theme or find it useful, please give it a <a href="https://github.com/kebl3541/Obsidian-Umbra">star</a> <a href="https://github.com/kebl3541/Obsidian-Umbra"><img src="https://img.shields.io/github/stars/kebl3541/Obsidian-Umbra?style=social&cacheSeconds=300" alt="GitHub Repo stars"></a> on GitHub!</p>
+<p> And if you like this theme or find it useful, please give it a <a href="https://github.com/kebl3541/Obsidian-Umbra">star</a> <a href="https://github.com/kebl3541/Obsidian-Umbra"><img src="https://img.shields.io/github/stars/kebl3541/Obsidian-Umbra?style=social&cacheSeconds=300" alt="GitHub Repo stars"></a> on GitHub!</p>
 
 ![Umbra](screenshot.png)
 
