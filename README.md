@@ -1,4 +1,4 @@
-# Umbra
+# Umbra - the darkest theme!
 
 [![Downloads](https://img.shields.io/github/downloads/kebl3541/Obsidian-Umbra/total?style=flat&logo=github&label=Downloads&color=success&cacheSeconds=3800)](https://github.com/kebl3541/Obsidian-Umbra/releases)
 [![GitHub stars](https://img.shields.io/github/stars/kebl3541/Obsidian-Umbra?style=flat&logo=github&label=Stars&cacheSeconds=300)](https://github.com/kebl3541/Obsidian-Umbra/stargazers)
