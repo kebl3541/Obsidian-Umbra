@@ -237,11 +237,11 @@ settings:
 .theme-dark .callout {
   background: rgba(255, 255, 255, 0.022);
   border: none;
-  border-left: 2px solid rgba(var(--callout-color), 0.55);
+  border-left: 2px solid color-mix(in srgb, var(--callout-color) 55%, transparent);
   border-radius: 4px;
 }
 .theme-dark .callout .callout-title {
-  color: rgb(var(--callout-color));
+  color: var(--callout-color);
   opacity: 0.9;
 }
 .theme-dark .callout .callout-content {
