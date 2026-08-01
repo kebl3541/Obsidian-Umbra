@@ -6,7 +6,7 @@
 
 An Obsidian theme named for the darkest part of a shadow: **very dark, very quiet, one restrained accent**.
 
-<p align="center">If this theme adds value for you and you would like to help support
+<p>If this theme adds value for you and you would like to help support
 continued development, please use the buttons below:</p>
 
 <p align="center">
