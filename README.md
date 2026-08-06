@@ -34,7 +34,9 @@ Near black surfaces, hairline borders in place of visible chrome, muted grays fo
 
 ## Choose your own accent
 
-Umbra allows itself one color, and you choose it. Install the community plugin **Style Settings**, then open Settings, Style Settings, Umbra: a color picker sets the accent, and links, tags, the caret, checkboxes, selections, the active tab, and the graph all follow, each at its own carefully weighted intensity. No plugin, no problem: the default is a desaturated violet.
+Umbra allows itself one color, and you choose it. Install the community plugin **Style Settings**, then open Settings, Style Settings, Umbra: a color picker sets the accent, and links, tags, the caret, checkboxes, selections, the active tab, and the graph all follow, each at its own carefully weighted intensity. 
+
+No plugin? No problem: the default is a desaturated violet.
 
 ## Install
 
