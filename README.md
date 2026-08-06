@@ -4,7 +4,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/kebl3541/Obsidian-Umbra?style=flat&logo=github&label=Stars&cacheSeconds=300)](https://github.com/kebl3541/Obsidian-Umbra/stargazers)
 [![Latest release](https://img.shields.io/github/v/release/kebl3541/Obsidian-Umbra?style=flat&label=Release&cacheSeconds=3800)](https://github.com/kebl3541/Obsidian-Umbra/releases/latest)
 
-An Obsidian theme named for the darkest part of a shadow: **very dark, very quiet, one restrained accent**.
+An Obsidian theme named for the darkest part of a shadow: **very dark, very quiet, and one restrained accent**.
 
 <p>If this theme adds value for you and you would like to help support
 continued development, please consider one of the buttons below:</p>
